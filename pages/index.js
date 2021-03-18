@@ -1,8 +1,13 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import { useAppContext } from '@context/state'
 
 export default function Home() {
+  let contextObj = useAppContext();
+
+  console.log(contextObj)
+
   return (
     <div className="container">
       <Head>
@@ -13,7 +18,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to my app!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Context object: {JSON.stringify(contextObj)}
         </p>
       </main>
 
