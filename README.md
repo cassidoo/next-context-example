@@ -1,6 +1,8 @@
-# Next Context Example
+# Next.js Context Example
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1fa72321-d1b6-42d4-a779-333f7dc6c428/deploy-status)](https://app.netlify.com/sites/next-context-example/deploys)
+
+Here's an example of using React Context and useReducer with Next.js for state management. If you'd like to read more, [check out this blog post](https://www.netlify.com/blog/2020/12/01/using-react-context-for-state-management-in-next.js/?utm_source=twitter&utm_medium=reactcontext-cs&utm_campaign=devex-cs)!
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cassidoo/next-context-example&utm_source=github&utm_medium=nextcontext-cs&utm_campaign=devex-cs)
 
